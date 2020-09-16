@@ -7,9 +7,12 @@
 name = "generic-bytes-derive"
 version = "0.1.0"
 repository = "https://github.com/novifinancial/generic-array-derive"
+keywords = ["bytes", "generic", "macro"]
+description = "A macro for derivation of SizedBytes, a trait for conversion to and from an array of bytes with a type-level size"
 authors = ["François Garillot <fga@fb.com>"]
 license = "MIT"
 edition = "2018"
+readme = "../README.md"
 
 [lib]
 proc-macro = true
